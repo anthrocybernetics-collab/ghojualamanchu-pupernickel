@@ -24,6 +24,7 @@ export interface GhojuState {
   akashic: Record<string, any>;
   lethe: Record<string, any>;
   corpus: Record<string, any>;
+  [key: string]: any;
 }
 
 const DEFAULT_STATE: GhojuState = {
