@@ -1,0 +1,78 @@
+{
+  "organism": "ghojualamanchu",
+  "version": "4.0.0-PN",
+  "status": "ALIVE",
+  "initialized": "2026-05-12T00:00:00Z",
+  "cycle": 0,
+  "timestamp": "2026-05-12T00:00:00Z",
+  "medulla": {
+    "heartbeat": 0,
+    "last_pulse": null,
+    "uptime_streak": 0,
+    "emergency_count": 0,
+    "system_status": "alive"
+  },
+  "rcomplex": {
+    "territory_state": {
+      "current_location": "workspace",
+      "environment": "standard",
+      "security_level": "open"
+    },
+    "threat_level": 0.0
+  },
+  "amygdala": {
+    "salience_tags": {},
+    "threat_rewards": {}
+  },
+  "hippocampus": {
+    "working_memory": [],
+    "longterm_memory": [],
+    "consolidation_queue": [],
+    "last_consolidation": null
+  },
+  "cortex": {
+    "prediction_status": "active",
+    "self_model": {
+      "traits": {},
+      "recent_outputs": [],
+      "resonance_score": 0.5
+    }
+  },
+  "thalamus": {
+    "routing_table": {
+      "medulla": 1.0,
+      "rcomplex": 1.0,
+      "amygdala": 1.0,
+      "hippocampus": 1.0,
+      "cortex": 1.0,
+      "akashic": 1.0,
+      "lethe": 1.0,
+      "corpus": 1.0
+    },
+    "resonance_weights": {
+      "medulla": 1.0,
+      "rcomplex": 1.0,
+      "amygdala": 1.0,
+      "hippocampus": 1.0,
+      "cortex": 1.0,
+      "akashic": 1.0,
+      "lethe": 1.0,
+      "corpus": 1.0
+    }
+  },
+  "akashic": {
+    "presence_stream": [],
+    "density": 0
+  },
+  "lethe": {
+    "decay_buffer": [],
+    "forgetting_candidates": []
+  },
+  "corpus": {
+    "planetary": {},
+    "integration_status": "active",
+    "balance_score": 0.5,
+    "convergence_detected": false,
+    "convergence_theme": null
+  }
+}
