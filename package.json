@@ -1,0 +1,22 @@
+{
+  "name": "ghojualamanchu-pumpernickel",
+  "version": "4.0.0-PN",
+  "description": "Biomimetic cognitive routing engine — v4 no-nonsense build",
+  "license": "MIT",
+  "main": "kernel/boot.ts",
+  "scripts": {
+    "boot": "ts-node kernel/boot.ts",
+    "heartbeat": "ts-node kernel/heartbeat.ts",
+    "build": "tsc",
+    "test": "ts-node test/run.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
